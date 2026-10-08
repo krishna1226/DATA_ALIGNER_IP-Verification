@@ -1,0 +1,45 @@
+# ==============================================================================
+# Git Ignore for EDA / SystemVerilog / UVM Simulation & Verification Environments
+# ==============================================================================
+
+# Simulator Work Directories & Compilation Databases
+work/
+work_*/
+csrc/
+simv*
+INCA_libs/
+xcelium.d/
+.simvision/
+.vstf/
+*.bin
+*.so
+*.o
+*.dll
+
+# Waveform Dumps & Database Files
+*.wlf
+vsim.wlf
+wlft*
+*.vcd
+*.fsdb
+*.shm/
+waves.shm/
+
+# Logs & Runtime Artifacts
+*.log
+transcript
+ucli.key
+vc_hdrs.h
+modelsim.ini
+
+# Functional Coverage & Reports
+cov_work/
+urgReport/
+*.ucdb
+
+# Ephemeral & OS Files
+.DS_Store
+Thumbs.db
+temp/
+.vscode/
+.idea/
